@@ -72,6 +72,7 @@ body{
 }
 .nav .nav-info ul li{
     line-height: 40px;
+    padding: 0 15px;
 }
 .nav .nav-info ul li a{
     text-decoration: none;
@@ -163,6 +164,10 @@ body{
     -o-transform: scale(1.2);
     -ms-transform: scale(1.2);
 cursor: pointer; 
+}
+
+img:hover{
+  transform: scale(1.02);
 }
 .container-left .baiviet .baiviet1{
     display: flex;
@@ -297,4 +302,18 @@ cursor: pointer;
     color: rgba(255, 255, 255, 0.884);
     font-size: 12px;
     padding: 5px 0 2px 0;
+}
+ul li:hover{
+    background-color: #5050501c;
+}
+.row .row-cot1 div:hover{
+    background-color: rgba(65, 65, 65, 0.226);
+}
+.info:hover{
+    background-color: rgba(65, 65, 65, 0.226);
+
+}
+.p:hover{
+    background-color: rgba(65, 65, 65, 0.226);
+
 }
